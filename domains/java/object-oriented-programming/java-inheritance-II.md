@@ -1,6 +1,6 @@
 # Java Inheritance II
 
-* [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2/problem)
+* [Java Inheritance II](https://www.hackerrank.com/challenges/java-inheritance-2/problem) `easy`
 
 Write the following code in your editor below:
 

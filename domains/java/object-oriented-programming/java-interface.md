@@ -8,13 +8,13 @@ divisorSum function just takes an integer as input and return the sum of all its
 
 Read the partially completed code in the editor and complete it. You just need to write the `MyCalculator` class only. Your class shouldn't be public.
 
-### Sample Input
+***Sample Input***
 
 ```txt
 6
 ```
 
-### Sample Output
+***Sample Output***
 
 ```txt
 I implemented: AdvancedArithmetic
