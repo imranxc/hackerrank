@@ -16,5 +16,5 @@ where `employee_id` is an employee's ID number, `name` is their name, `months` i
 select name
 from Employee
 where months < 10 and salary > 2000
-order by employee_id asc; -- this line optional
+order by employee_id asc; -- optional
 ```
