@@ -2,25 +2,9 @@
 
 * [Java Int to String](https://www.hackerrank.com/challenges/java-int-to-string/problem) `easy`
 
-You are given an integer , you have to convert it into a string.
+You are given an `integer` , you have to convert it into a `string`.
 
-Please complete the partially completed code in the editor. If your code successfully converts  into a string  the code will print "Good job". Otherwise it will print "Wrong answer".
-
-can range between 100 to 100 inclusive.
-
-**Sample Input**
-
-```txt
-100
-```
-
-**Sample Output**
-
-```txt
-Good job
-```
-
-### Code
+Please complete the partially completed code in the editor. If your code successfully converts  `n` into a string `s` the code will print "Good job". Otherwise it will print "Wrong answer".
 
 ```java
 import java.util.*;
@@ -37,7 +21,6 @@ public class Solution {
             in.close();
             // String s=???; Complete this line below
             String s = Integer.toString(n);
-            // Write your code here
 
             if (n == Integer.parseInt(s)) {
                 System.out.println("Good job");
