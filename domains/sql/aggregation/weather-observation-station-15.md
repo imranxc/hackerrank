@@ -1,6 +1,6 @@
 # Weather Observation Station 15
 
-* ![Weather Observation Station 15](https://www.hackerrank.com/challenges/weather-observation-station-15/problem) `easy`
+* [Weather Observation Station 15](https://www.hackerrank.com/challenges/weather-observation-station-15/problem) `easy`
 
 Query the Western Longitude (`LONG_W`) for the largest Northern Latitude (`LAT_N`) in `STATION` that is less than `137.2345`. Round your answer to 4 decimal places.
 

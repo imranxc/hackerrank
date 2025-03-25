@@ -1,6 +1,6 @@
 # Top Earners
 
-* ![Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem) `easy`
+* [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem) `easy`
 
 We define an employee's total earnings to be their monthly `salary*months` worked, and the maximum total earnings to be the maximum total earnings for any employee in the `Employee` table. 
 
