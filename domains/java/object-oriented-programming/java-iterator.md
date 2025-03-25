@@ -6,19 +6,20 @@ Java Iterator class can help you to iterate through every element in a collectio
 
 ```java
 import java.util.*;
-public class Example{
 
-    public static void main(String []args){
-        ArrayList mylist = new ArrayList();
-        mylist.add("Hello");
-        mylist.add("Java");
-        mylist.add("4");
-        Iterator it = mylist.iterator();
-        while(it.hasNext()){
-            Object element = it.next();
-            System.out.println((String)element);
-        }
+public class Example {
+
+  public static void main(String[] args) {
+    ArrayList mylist = new ArrayList();
+    mylist.add("Hello");
+    mylist.add("Java");
+    mylist.add("4");
+    Iterator it = mylist.iterator();
+    while (it.hasNext()) {
+      Object element = it.next();
+      System.out.println((String) element);
     }
+  }
 }
 ```
 
@@ -41,47 +42,44 @@ Java
 
 Note: The stdin doesn't contain the string "###", it is added in the main method.
 
-### Code
-
 ```java
 import java.util.*;
 
-public class Main{
-	
-    static Iterator func(ArrayList mylist){
-        Iterator it = mylist.iterator();
+public class Main {
 
-        while(it.hasNext()){
-            Object element = it.next();
-            if(element instanceof String) {
-                break;
-            }
-        }
+  static Iterator func(ArrayList mylist) {
+    Iterator it = mylist.iterator();
 
-        return it;
+    while (it.hasNext()) {
+      Object element = it.next();
+      if (element instanceof String) {
+        break;
+      }
+    }
+    return it;
+  }
+
+  @SuppressWarnings({ "unchecked" })
+  public static void main(String[] args) {
+    ArrayList mylist = new ArrayList();
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int m = sc.nextInt();
+
+    for (int i = 0; i < n; i++) {
+      mylist.add(sc.nextInt());
     }
 
-    @SuppressWarnings({ "unchecked" })
-    public static void main(String []args){
-        ArrayList mylist = new ArrayList();
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
-
-        for(int i = 0;i<n;i++){
-            mylist.add(sc.nextInt());
-        }
-        
-        mylist.add("###");
-        for(int i=0;i<m;i++){
-            mylist.add(sc.next());
-        }
-        
-        Iterator it=func(mylist);
-        while(it.hasNext()){
-            Object element = it.next();
-            System.out.println((String)element);
-        }
+    mylist.add("###");
+    for (int i = 0; i < m; i++) {
+      mylist.add(sc.next());
     }
+
+    Iterator it = func(mylist);
+    while (it.hasNext()) {
+      Object element = it.next();
+      System.out.println((String) element);
+    }
+  }
 }
 ```

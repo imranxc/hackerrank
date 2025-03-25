@@ -5,10 +5,10 @@
 Using inheritance, one class can acquire the properties of others. Consider the following Animal class:
 
 ```java
-class Animal{
-    void walk(){
-        System.out.println("I am walking");
-    }
+class Animal {
+  void walk() {
+    System.out.println("I am walking");
+  }
 }
 ```
 
@@ -16,22 +16,22 @@ This class has only one method, walk. Next, we want to create a Bird class that 
 
 ```java
 class Bird extends Animal {
-    void fly() {
-        System.out.println("I am flying");
-    }
+  void fly() {
+    System.out.println("I am flying");
+  }
 }
 ```
 
 Finally, we can create a Bird object that can both fly and walk.
 
 ```java
-public class Solution{
-   public static void main(String[] args){
+public class Solution {
+  public static void main(String[] args) {
 
-      Bird bird = new Bird();
-      bird.walk();
-      bird.fly();
-   }
+    Bird bird = new Bird();
+    bird.walk();
+    bird.fly();
+  }
 }
 ```
 
@@ -51,7 +51,7 @@ I am flying
 I am singing
 ```
 
-### Code
+### Completed Code
 
 ```java
 import java.io.*;
@@ -60,30 +60,30 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-class Animal{
-	void walk(){
-		System.out.println("I am walking");
-	}
+class Animal {
+  void walk() {
+    System.out.println("I am walking");
+  }
 }
 
-class Bird extends Animal{
-	void fly(){
-		System.out.println("I am flying");
-	}
-    
-    void sing(){
-        System.out.println("I am singing");
-    }
+class Bird extends Animal {
+  void fly() {
+    System.out.println("I am flying");
+  }
+
+  void sing() {
+    System.out.println("I am singing");
+  }
 }
 
-public class Solution{
+public class Solution {
 
-   public static void main(String args[]){
+  public static void main(String args[]) {
 
-	  Bird bird = new Bird();
-	  bird.walk();
-	  bird.fly();
-      bird.sing();
-   }
+    Bird bird = new Bird();
+    bird.walk();
+    bird.fly();
+    bird.sing();
+  }
 }
 ```

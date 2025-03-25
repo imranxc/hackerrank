@@ -16,23 +16,24 @@ import java.util.*;
 
 public class Solution {
 
-    public static void main(String[] args) {}
+  public static void main(String[] args) {}
 
-    static {
-        try {
-            Scanner sc = new Scanner(System.in);
-            int b = sc.nextInt();
-            int h = sc.nextInt();
-            
-            if (b <= 0 || h <= 0) {
-                throw new Exception("Breadth and height must be positive");
-            } else {
-                System.out.println(b * h);
-            }
-            sc.close();
-        } catch (Exception e) {
-            System.out.println(e.getClass().getName() + ": " + e.getMessage());
-        }
+  static {
+    try {
+      Scanner sc = new Scanner(System.in);
+      int b = sc.nextInt();
+      int h = sc.nextInt();
+
+      if (b <= 0 || h <= 0) {
+        throw new Exception("Breadth and height must be positive");
+      } else {
+        System.out.println(b * h);
+      }
+    } catch (Exception e) {
+      System.out.println(e.getClass().getName() + ": " + e.getMessage());
+    } finally {
+      sc.close();
     }
+  }
 }
 ```

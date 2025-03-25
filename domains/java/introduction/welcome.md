@@ -7,9 +7,9 @@ The code stubs in your editor declare a Solution class and a main method. Comple
 ```java
 public class Solution {
 
-    public static void main(String[] args) {
-        System.out.println("Hello, World.");
-        System.out.println("Hello, Java.");
-    }
+  public static void main(String[] args) {
+    System.out.println("Hello, World.");
+    System.out.println("Hello, Java.");
+  }
 }
 ```
